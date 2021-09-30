@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "8eaa1b93-2934-4672-bbfa-1aba476b000e",
+		"name": "backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "filter comments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7001/api/v1/comments?body=est natus enim nihil est dolore omnis voluptatem numquam\\net omnis occaecati quod ullam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"api",
+						"v1",
+						"comments"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "id labore ex et quam laborum",
+							"disabled": true
+						},
+						{
+							"key": "postId",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "Jayne_Kuhic@sydney.com",
+							"disabled": true
+						},
+						{
+							"key": "id",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "body",
+							"value": "est natus enim nihil est dolore omnis voluptatem numquam\\net omnis occaecati quod ullam"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "topPosts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7001/api/v1/topPosts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"api",
+						"v1",
+						"topPosts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
